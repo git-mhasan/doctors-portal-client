@@ -6,7 +6,7 @@ import About from './Pages/About/About';
 
 function App() {
   return (
-    <div className="App">
+    <div className="mx-auto px-9 md:px-12 max-w-6xl">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
