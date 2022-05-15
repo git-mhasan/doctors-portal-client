@@ -11,6 +11,10 @@ const Navbar = () => {
         <li><Link to="/review">Review</Link></li>
         <li><Link to="/contact">Contact</Link></li>
         <li><Link to="/about">About</Link></li>
+
+        {/* //TODO: Dashboard should be a Protected and Hidden from non-logged in user */}
+        <li><Link to="/dashboard">Dashboard</Link></li>
+
         <li><Link to="/login">Login</Link></li>
     </>
     return (
